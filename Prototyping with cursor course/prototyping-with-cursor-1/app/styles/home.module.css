@@ -1,0 +1,80 @@
+.container {
+  max-width: 700px;
+  margin: 48px auto;
+  padding: 0;
+  min-height: 70vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
+.header {
+  padding: 0 0 2.5rem 0;
+  margin-top: 3rem;
+  margin-bottom: 2.5rem;
+  display: flex;
+  align-items: center;
+  height: auto;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.header h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #fff;
+  margin: 0;
+  font-family: 'Pacifico', cursive, 'Comic Sans MS', 'Brush Script MT', cursive;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 12px #ff7e5f99;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  margin: 0 2rem 3rem 2rem;
+  justify-items: center;
+}
+
+.card {
+  padding: 2.2rem 1.7rem;
+  border-radius: 1rem;
+  background: #fff8f2;
+  color: #ff7e5f;
+  font-family: 'Comic Neue', 'Comic Sans MS', 'Baloo 2', 'Fredoka One', 'Quicksand', cursive, sans-serif;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 12px 0 #ffb34733;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  transition: background 0.15s, color 0.15s, box-shadow 0.15s;
+  border: none;
+  width: 100%;
+  max-width: 420px;
+}
+
+.card:hover {
+  background: #ffb347;
+  color: #fff;
+  box-shadow: 0 4px 24px 0 #ff7e5f55;
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ff7e5f;
+  font-family: 'Pacifico', cursive, 'Comic Sans MS', 'Brush Script MT', cursive;
+  text-shadow: 0 1px 4px #ffb34744;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #ff7e5f;
+  font-family: 'Comic Neue', 'Comic Sans MS', 'Baloo 2', 'Fredoka One', 'Quicksand', cursive, sans-serif;
+  margin: 0;
+  opacity: 0.85;
+} 
