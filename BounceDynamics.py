@@ -42,8 +42,8 @@ def main():
 
     # Create balls with different elasticity
     ball1 = create_ball(space, (200, 100), 0.2)
-    ball2 = create_ball(space, (400, 100), 0.4)
-    ball3 = create_ball(space, (600, 100), 0.6)
+    ball2 = create_ball(space, (400, 100), 0.6)
+    ball3 = create_ball(space, (600, 100), 1)
 
     running = True
     while running:
